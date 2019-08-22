@@ -89,6 +89,7 @@ window.unsubscribe = unsubscribe;
 
 
 
+// 다음번엔 리액트에 리덕스를 연동해 적용해 볼것임.
 
 
 
