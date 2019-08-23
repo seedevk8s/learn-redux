@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 //import './exercise.js';
+import { Provider } from 'react-redux';
+import { CreateStore, createStore } from 'redux';
+import rootReducer from './modules';
+
+const store = createStore(rootReducer);
+console.log(store.getState());
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
