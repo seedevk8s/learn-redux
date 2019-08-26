@@ -28,7 +28,7 @@ const initialState = [
     */
 ];
 
-// 리듀스 작성
+// 리듀스 작성해서 내보내줌.
 export default function totods(state = initialState, action) {
     switch(action.type) {
         case ADD_TODO:
